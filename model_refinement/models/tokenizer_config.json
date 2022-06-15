@@ -1,0 +1,1 @@
+{"unk_token": "<unk>", "bos_token": "<s>", "eos_token": "</s>", "pad_token": "<pad>", "do_lower_case": false, "word_delimiter_token": "|", "replace_word_delimiter_char": " ", "special_tokens_map_file": null, "name_or_path": "/var/folders/cv/mhmr0nld77s022bkt9xj67n40000gn/T/tmp8orh29lv", "tokenizer_class": "Wav2Vec2CTCTokenizer", "processor_class": "Wav2Vec2Processor"}
