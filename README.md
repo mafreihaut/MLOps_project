@@ -1,13 +1,20 @@
 # Podcast Audio IAB Classification Project
 
-The purpose of this project is to classify audio podcast files into categories based on their IAB Content Taxonomy Mappings.
+The purpose of this project is to classify audio podcast files into categories into IAB Content Taxonomy Mappings.
 
 
-At this phase of the project there is an locally runnable FastAPI server that can be used to classify audio files.
 
-To run the server, run the following command:
+
+To run the server locally , run the following command:
 
 ```python app.py```
+
+Containerized version:
+
+
+`docker build --tag mlops-project . `
+`docker run -p 8000:8000 -t -i mlops-project`
+
 
 navigate a web browser to http://127.0.0.1:5000/docs
 
@@ -24,13 +31,8 @@ https://huggingface.co/facebook/bart-large-mnli
 
 
 
-## Project Roadmap
-
-[![](https://mermaid.ink/img/pako:eNp1kkFPwkAQhf_KZM9sQiuo6cWD0IRDE6IkxqSXsTvASrvb7E6NaPzvjlSICMyh6XZfvzdvMp-q8oZUplbomEsHUmy5JhjDE9EG5sG_UsXw4NE02PYKg0y5Dw0ywLOULgo9mfR3UdTWu_7vpP9WoHWwwLjR-t47lhMF-4E7HToDE2prv23IMRwqw2QA6TBN9XCsk9EAbswOdsYlPXGZvgswEBQSroZc_GDROWfdCgritTdx5zv3MdoXCTtr2poO_tneNk0OtjDLc9D6mKWl8zeqfQvNL3XpA3SRArAH44HXNp7HHQW4OgmQB5kTTKXHmWMKS6zo7l9vtxdgoxPYPFCUbP285dD-AV3r4egCaHzalXVYw8J31ZriEST5E61_7ksNVEOyKtbIln3-3JWK1zLsUmXyajBsSlW6L9F17c9iTY1lH1S2xDrSQGHH_nHrKpVx6GgvmlhcBWx-VV_fg5TWvw)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNp1kkFPwkAQhf_KZM9sQiuo6cWD0IRDE6IkxqSXsTvASrvb7E6NaPzvjlSICMyh6XZfvzdvMp-q8oZUplbomEsHUmy5JhjDE9EG5sG_UsXw4NE02PYKg0y5Dw0ywLOULgo9mfR3UdTWu_7vpP9WoHWwwLjR-t47lhMF-4E7HToDE2prv23IMRwqw2QA6TBN9XCsk9EAbswOdsYlPXGZvgswEBQSroZc_GDROWfdCgritTdx5zv3MdoXCTtr2poO_tneNk0OtjDLc9D6mKWl8zeqfQvNL3XpA3SRArAH44HXNp7HHQW4OgmQB5kTTKXHmWMKS6zo7l9vtxdgoxPYPFCUbP285dD-AV3r4egCaHzalXVYw8J31ZriEST5E61_7ksNVEOyKtbIln3-3JWK1zLsUmXyajBsSlW6L9F17c9iTY1lH1S2xDrSQGHH_nHrKpVx6GgvmlhcBWx-VV_fg5TWvw)
-
-
 ## Presentation Docs and Video
 
 
-[Video Link](https://www.loom.com/share/7834384e6a7f4a6a94aad217f02eb0cd)
-[Slide Deck](https://docs.google.com/presentation/d/1VxMr3nuUtQlQ4S4fsYC4vXuh_YMCxvSsG3ag85-qhsA/edit?usp=sharing)
+[Video Link](https://www.loom.com/share/dc94c719895444e5a0a0d1f8aea6025c)
+[Slide Deck](https://docs.google.com/presentation/d/1edrufHzsZV60Y_nCZiuQsm0B6pZ2JWFeG2ZuEG6IxRo/edit?usp=sharing)
